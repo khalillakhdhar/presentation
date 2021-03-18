@@ -16,20 +16,6 @@ class Etude extends StatelessWidget {
         onPressed: () async {
           var navigationResult = await Navigator.push(
               context, new MaterialPageRoute(builder: (context) => Moi()));
-
-          if (navigationResult == 'from_back') {
-            showDialog(
-                context: context,
-                builder: (context) => AlertDialog(
-                      title: Text('Navigation from back'),
-                    ));
-          } else if (navigationResult == 'from_button') {
-            showDialog(
-                context: context,
-                builder: (context) => AlertDialog(
-                      title: Text('Navigation from button'),
-                    ));
-          }
         },
       ),
       body: new Container(

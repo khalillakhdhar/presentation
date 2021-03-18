@@ -23,9 +23,6 @@ class Moi extends StatelessWidget {
           child: new Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              /*new Text("hello"),
-          new Text("I am"),
-          new Text("Khalil"),*/
               new MyCard(
                   title: new Text("Khalil Lakhdhar"),
                   icon: new Icon(

@@ -10,7 +10,7 @@ class Moi extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("My cool application"),
+        title: new Text("Ma présentation"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
